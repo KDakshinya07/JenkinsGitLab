@@ -8,4 +8,4 @@ RUN pip install Flask
 #nnext we will copy app.py into working directory
 COPY . /app
 #next we will specify the command to run the flask application
-CMD ["python","app.py"]
+CMD ["python","flaskApp.py"]
